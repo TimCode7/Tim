@@ -11,6 +11,4 @@ function ajouterMatch(){
 		mondiv.innerHTML += "Défaite";
 	}
 	mesMatchs.appendChild(mondiv);
-	console.log(mesMatchs);
-
 }
