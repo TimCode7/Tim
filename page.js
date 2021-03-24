@@ -5,9 +5,9 @@ function ajouterMatch(){
 	mondiv = document.createElement('div');
 	var res = prompt("entrez V pour une victoire et D pour une défaite");
 	mondiv.id = res;
-	if (res == "V") {
+	if (res == "V" || res=="v") {
 		mondiv.innerHTML += "Victoire"; 
-	}else if (res=="D"){
+	}else if (res=="D"|| res=="d"){
 		mondiv.innerHTML += "Défaite";
 	}
 	mesMatchs.appendChild(mondiv);
